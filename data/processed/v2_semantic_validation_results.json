@@ -1,0 +1,177 @@
+{
+  "validation_summary": {
+    "total_entities": 214,
+    "valid_entities": 125,
+    "validation_rate": 0.5841121495327103,
+    "categories_processed": 10,
+    "avg_category_similarity": 0.32483510226011275
+  },
+  "category_validation": {
+    "TECHNOLOGY_TYPE": {
+      "avg_similarity": 0.32297688722610474,
+      "valid_entities": 12,
+      "total_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_similarity": 0.2134191393852234,
+      "valid_entities": 4,
+      "total_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_similarity": 0.365655779838562,
+      "valid_entities": 10,
+      "total_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_similarity": 0.2951577305793762,
+      "valid_entities": 9,
+      "total_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_similarity": 0.30079367756843567,
+      "valid_entities": 7,
+      "total_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_similarity": 0.4011779725551605,
+      "valid_entities": 21,
+      "total_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_similarity": 0.4109216034412384,
+      "valid_entities": 22,
+      "total_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_similarity": 0.41183167695999146,
+      "valid_entities": 19,
+      "total_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_similarity": 0.16399075090885162,
+      "valid_entities": 2,
+      "total_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_similarity": 0.3624258041381836,
+      "valid_entities": 19,
+      "total_entities": 25
+    }
+  },
+  "duplicate_detection": {
+    "TECHNOLOGY_TYPE": [
+      {
+        "entity1": "Geothermal",
+        "entity2": "Geothermal Energy",
+        "similarity": 0.9326254725456238
+      },
+      {
+        "entity1": "Offshore Wind",
+        "entity2": "Onshore Wind",
+        "similarity": 0.8622808456420898
+      }
+    ],
+    "SERVICE_CATEGORY": [],
+    "EQUIPMENT_COMPONENT": [
+      {
+        "entity1": "Heat Pump Systems",
+        "entity2": "Heat Pumps",
+        "similarity": 0.8701359033584595
+      }
+    ],
+    "PERFORMANCE_METRIC": [],
+    "REGULATORY_STANDARD": [
+      {
+        "entity1": "Iec 61215",
+        "entity2": "Iec 61730",
+        "similarity": 0.9422837495803833
+      }
+    ],
+    "TRANSPORT_MODE": [
+      {
+        "entity1": "Downstream Transportation",
+        "entity2": "Upstream Transportation",
+        "similarity": 0.9072816967964172
+      }
+    ],
+    "CARBON_METRIC": [
+      {
+        "entity1": "Carbon Footprint Assessment",
+        "entity2": "Carbon Footprint Quantification",
+        "similarity": 0.8977823853492737
+      },
+      {
+        "entity1": "Direct Emissions",
+        "entity2": "Indirect Emissions",
+        "similarity": 0.8882412314414978
+      },
+      {
+        "entity1": "Direct Emissions",
+        "entity2": "Other Indirect Emissions",
+        "similarity": 0.8695250749588013
+      },
+      {
+        "entity1": "Indirect Emissions",
+        "entity2": "Other Indirect Emissions",
+        "similarity": 0.9683223962783813
+      }
+    ],
+    "SUPPLY_CHAIN_ELEMENT": [
+      {
+        "entity1": "Sustainable Procurement",
+        "entity2": "Sustainable Procurement Processes",
+        "similarity": 0.9453287124633789
+      },
+      {
+        "entity1": "Sustainable Supply Chain Finance",
+        "entity2": "Sustainable Supply Chains",
+        "similarity": 0.862680196762085
+      }
+    ],
+    "EFFICIENCY_TECHNOLOGY": [],
+    "ENVIRONMENTAL_STANDARD": []
+  },
+  "quality_assessment": {
+    "TECHNOLOGY_TYPE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_quality": 0.9777777777777777,
+      "high_quality_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_quality": 0.9733333333333332,
+      "high_quality_entities": 25
+    }
+  },
+  "cross_domain_validation": {}
+}

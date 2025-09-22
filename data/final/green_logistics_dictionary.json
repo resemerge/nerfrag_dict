@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "creation_date": "2025-09-21T13:59:30.114889",
+    "version": "1.0.0",
+    "methodology": "Web scraping + Expert validation",
+    "validation_status": "Expert reviewed",
+    "license": "CC BY 4.0",
+    "citation": "TBD - ICECO 2025 Data Note",
+    "dictionary_name": "Green Logistics NER Dictionary",
+    "domain": "sustainable_logistics",
+    "total_entities": 11,
+    "categories": [
+      "TRANSPORT_MODE",
+      "CARBON_METRIC",
+      "SUPPLY_CHAIN_ELEMENT",
+      "EFFICIENCY_TECHNOLOGY",
+      "ENVIRONMENTAL_STANDARD"
+    ],
+    "integrity_hash": "54f334f380ec65146cdc005f8760e8f70b296c8f064a9fe0cf245d97addd4d28"
+  },
+  "entities": {
+    "TRANSPORT_MODE": [
+      "Ev",
+      "Multimodal",
+      "ev",
+      "multimodal"
+    ],
+    "CARBON_METRIC": [
+      "carbon footprint",
+      "net zero"
+    ],
+    "SUPPLY_CHAIN_ELEMENT": [
+      "Renewable energy",
+      "renewable energy"
+    ],
+    "EFFICIENCY_TECHNOLOGY": [],
+    "ENVIRONMENTAL_STANDARD": [
+      "ISO 14001",
+      "SmartWay",
+      "gri"
+    ]
+  },
+  "category_descriptions": {
+    "TRANSPORT_MODE": "Sustainable transportation methods and technologies",
+    "CARBON_METRIC": "Carbon footprint and emissions measurement terms",
+    "SUPPLY_CHAIN_ELEMENT": "Green supply chain components and practices",
+    "EFFICIENCY_TECHNOLOGY": "Technologies for logistics optimization",
+    "ENVIRONMENTAL_STANDARD": "Environmental certifications and standards"
+  },
+  "usage_guidelines": {
+    "ner_applications": [
+      "Sustainability report analysis",
+      "Transport mode classification",
+      "Carbon metric extraction"
+    ],
+    "rag_applications": [
+      "Green logistics consulting",
+      "Sustainability strategy development",
+      "Compliance checking"
+    ],
+    "cross_domain_links": "See renewable_energy dictionary for energy technology connections"
+  }
+}

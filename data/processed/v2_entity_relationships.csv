@@ -1,0 +1,61 @@
+source_entity,source_category,target_entity,target_category,relationship_strength,relationship_type
+Concentrated Solar Power,TECHNOLOGY_TYPE,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Concentrated Solar Power,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Floating Solar,TECHNOLOGY_TYPE,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Floating Solar,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Perovskite Solar Cells,TECHNOLOGY_TYPE,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Perovskite Solar Cells,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Solar Pv,TECHNOLOGY_TYPE,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Solar Pv,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Solar Thermal,TECHNOLOGY_TYPE,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Solar Thermal,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Silicon Solar Cells,EQUIPMENT_COMPONENT,Zero Emission Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Silicon Solar Cells,EQUIPMENT_COMPONENT,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Offshore Wind,TECHNOLOGY_TYPE,Green Shipping,TRANSPORT_MODE,0.9,energy_to_transport
+Offshore Wind,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Onshore Wind,TECHNOLOGY_TYPE,Green Shipping,TRANSPORT_MODE,0.9,energy_to_transport
+Onshore Wind,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Wind Power,TECHNOLOGY_TYPE,Green Shipping,TRANSPORT_MODE,0.9,energy_to_transport
+Wind Power,TECHNOLOGY_TYPE,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Wind Turbine Components,EQUIPMENT_COMPONENT,Green Shipping,TRANSPORT_MODE,0.9,energy_to_transport
+Wind Turbine Components,EQUIPMENT_COMPONENT,Aerodynamic Devices,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Green Hydrogen,TECHNOLOGY_TYPE,Alternative Fuel Vehicles,TRANSPORT_MODE,0.9,energy_to_transport
+Grid Integration,TECHNOLOGY_TYPE,Smart Traffic Management,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Grid Integration Studies,SERVICE_CATEGORY,Smart Traffic Management,EFFICIENCY_TECHNOLOGY,0.9,energy_to_transport
+Sustainability Consulting,SERVICE_CATEGORY,Supply Chain Optimization,SUPPLY_CHAIN_ELEMENT,0.9,services_to_supply
+Inverters,EQUIPMENT_COMPONENT,Energy Management Systems,EFFICIENCY_TECHNOLOGY,0.9,equipment_to_efficiency
+Smart Grid Components,EQUIPMENT_COMPONENT,Digital Transport Infrastructure,EFFICIENCY_TECHNOLOGY,0.9,equipment_to_efficiency
+Energy Efficiency Equipment,EQUIPMENT_COMPONENT,Emission Factors,CARBON_METRIC,0.9,performance_to_carbon
+Energy Efficiency Targets,PERFORMANCE_METRIC,Emission Factors,CARBON_METRIC,0.9,performance_to_carbon
+System Efficiency,PERFORMANCE_METRIC,Emission Factors,CARBON_METRIC,0.9,performance_to_carbon
+Energy Efficiency Directive,REGULATORY_STANDARD,Emission Factors,CARBON_METRIC,0.9,performance_to_carbon
+Global Weighted Average Lcoe,PERFORMANCE_METRIC,Carbon Footprint Assessment,CARBON_METRIC,0.9,performance_to_carbon
+Global Weighted Average Lcoe,PERFORMANCE_METRIC,Carbon Footprint Quantification,CARBON_METRIC,0.9,performance_to_carbon
+Global Weighted Average Lcoe,PERFORMANCE_METRIC,Life Cycle Assessment,CARBON_METRIC,0.9,performance_to_carbon
+Global Weighted Average Lcoe,PERFORMANCE_METRIC,Iso 14040 Life Cycle Assessment,ENVIRONMENTAL_STANDARD,0.9,performance_to_carbon
+Global Weighted Average Lcoe,PERFORMANCE_METRIC,Iso 14067 Carbon Footprint,ENVIRONMENTAL_STANDARD,0.9,performance_to_carbon
+Capacity Factor,PERFORMANCE_METRIC,Co2 Emissions Per Ton-mile,CARBON_METRIC,0.9,performance_to_carbon
+Capacity Factor,PERFORMANCE_METRIC,Emission Intensity,CARBON_METRIC,0.9,performance_to_carbon
+Renewable Energy Certificates,REGULATORY_STANDARD,Emission Trading System,CARBON_METRIC,0.9,standards_alignment
+Clean Energy,TECHNOLOGY_TYPE,Clean Transport,TRANSPORT_MODE,0.5,semantic_similarity
+Green Hydrogen,TECHNOLOGY_TYPE,Green Shipping,TRANSPORT_MODE,0.5,semantic_similarity
+Sustainable Energy,TECHNOLOGY_TYPE,Sustainable Mobility,TRANSPORT_MODE,0.5,semantic_similarity
+Sustainable Energy,TECHNOLOGY_TYPE,Sustainable Procurement,SUPPLY_CHAIN_ELEMENT,0.5,semantic_similarity
+Carbon Footprint Assessment,SERVICE_CATEGORY,Carbon Footprint Assessment,CARBON_METRIC,1.0,semantic_similarity
+Carbon Footprint Assessment,SERVICE_CATEGORY,Carbon Footprint Quantification,CARBON_METRIC,0.6666666666666666,semantic_similarity
+Carbon Footprint Assessment,SERVICE_CATEGORY,Iso 14067 Carbon Footprint,ENVIRONMENTAL_STANDARD,0.5,semantic_similarity
+Certification Testing,SERVICE_CATEGORY,Smartway Certification,ENVIRONMENTAL_STANDARD,0.5,semantic_similarity
+Performance Modeling,SERVICE_CATEGORY,Performance Indicators,EFFICIENCY_TECHNOLOGY,0.5,semantic_similarity
+Performance Modeling,SERVICE_CATEGORY,Performance Monitoring,EFFICIENCY_TECHNOLOGY,0.5,semantic_similarity
+Energy Management Systems,EQUIPMENT_COMPONENT,Environmental Management Systems,SUPPLY_CHAIN_ELEMENT,0.6666666666666666,semantic_similarity
+Energy Management Systems,EQUIPMENT_COMPONENT,Waste Management Systems,SUPPLY_CHAIN_ELEMENT,0.6666666666666666,semantic_similarity
+Energy Management Systems,EQUIPMENT_COMPONENT,Energy Management Systems,EFFICIENCY_TECHNOLOGY,1.0,semantic_similarity
+Energy Management Systems,EQUIPMENT_COMPONENT,Iso 50001 Energy Management,ENVIRONMENTAL_STANDARD,0.5,semantic_similarity
+Energy Storage Systems,EQUIPMENT_COMPONENT,Energy Management Systems,EFFICIENCY_TECHNOLOGY,0.6666666666666666,semantic_similarity
+Performance Ratio,PERFORMANCE_METRIC,Performance Indicators,EFFICIENCY_TECHNOLOGY,0.5,semantic_similarity
+Performance Ratio,PERFORMANCE_METRIC,Performance Monitoring,EFFICIENCY_TECHNOLOGY,0.5,semantic_similarity
+System Efficiency,PERFORMANCE_METRIC,Fuel Efficiency,CARBON_METRIC,0.5,semantic_similarity
+System Efficiency,PERFORMANCE_METRIC,Freight Efficiency,SUPPLY_CHAIN_ELEMENT,0.5,semantic_similarity
+Eu Taxonomy,REGULATORY_STANDARD,Eu Taxonomy Regulation,ENVIRONMENTAL_STANDARD,0.8,semantic_similarity
+Fit For 55,REGULATORY_STANDARD,Fit For 55 Package,ENVIRONMENTAL_STANDARD,0.8,semantic_similarity
+Green Deal,REGULATORY_STANDARD,Green Shipping,TRANSPORT_MODE,0.5,semantic_similarity

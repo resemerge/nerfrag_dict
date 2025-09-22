@@ -1,0 +1,316 @@
+{
+  "dictionary_info": {
+    "name": "Green Logistics NER Dictionary v2",
+    "domain": "Sustainable Transportation and Supply Chain Management",
+    "categories": [
+      "TRANSPORT_MODE",
+      "CARBON_METRIC",
+      "SUPPLY_CHAIN_ELEMENT",
+      "EFFICIENCY_TECHNOLOGY",
+      "ENVIRONMENTAL_STANDARD"
+    ],
+    "total_entities": 214,
+    "version": "2.0",
+    "creation_date": "2025-09-21T14:11:24.289295",
+    "description": "Enhanced NER dictionaries for renewable energy and green logistics domains",
+    "validation_status": "AI-validated",
+    "data_sources": [
+      "IRENA (International Renewable Energy Agency)",
+      "NREL (National Renewable Energy Laboratory)",
+      "IEA (International Energy Agency)",
+      "European Commission Energy",
+      "EPA SmartWay Program",
+      "GRI Sustainability Standards",
+      "ISO Environmental Standards",
+      "CDP (Carbon Disclosure Project)"
+    ],
+    "license": "CC BY 4.0",
+    "citation": "Enhanced NER Dictionaries for Sustainable Technology Applications - ICECO 2025",
+    "contact": "research@sustainabletech.org"
+  },
+  "category_definitions": {
+    "TRANSPORT_MODE": {
+      "description": "Sustainable transportation methods and technologies",
+      "examples": [
+        "Electric Vehicle",
+        "Hydrogen Fuel Cell",
+        "Rail Transport",
+        "Green Shipping"
+      ],
+      "entity_count": 29
+    },
+    "CARBON_METRIC": {
+      "description": "Carbon footprint and greenhouse gas emission measurements",
+      "examples": [
+        "CO2 Emissions",
+        "Carbon Footprint",
+        "Scope 1 Emissions",
+        "Net Zero"
+      ],
+      "entity_count": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "description": "Sustainable supply chain components and practices",
+      "examples": [
+        "Green Packaging",
+        "Reverse Logistics",
+        "Circular Economy",
+        "Sustainable Sourcing"
+      ],
+      "entity_count": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "description": "Technology solutions for logistics efficiency and optimization",
+      "examples": [
+        "Route Optimization",
+        "Fleet Management",
+        "IoT",
+        "Predictive Analytics"
+      ],
+      "entity_count": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "description": "Environmental standards, certifications, and reporting frameworks",
+      "examples": [
+        "ISO 14001",
+        "GRI Standards",
+        "CDP",
+        "TCFD"
+      ],
+      "entity_count": 25
+    }
+  },
+  "entities": {
+    "TRANSPORT_MODE": [
+      "Active Mobility",
+      "Alternative Fuel Infrastructure",
+      "Alternative Fuel Vehicles",
+      "Barge Transport",
+      "Business Travel",
+      "Clean Transport",
+      "Clean Vehicle Technologies",
+      "Downstream Transportation",
+      "Employee Commuting",
+      "Expedited Freight",
+      "Fleet Electrification",
+      "Freight Transport",
+      "Full Truckload",
+      "Green Shipping",
+      "Intermodal Transport",
+      "Less-than-truckload",
+      "Low Carbon Transport",
+      "Micro-mobility",
+      "Multimodal Transport",
+      "Product Distribution",
+      "Public Transportation Systems",
+      "Rail Transport",
+      "Shared Mobility",
+      "Sustainable Aviation Fuels",
+      "Sustainable Mobility",
+      "Sustainable Transport Systems",
+      "Truck Transport",
+      "Upstream Transportation",
+      "Zero Emission Vehicles"
+    ],
+    "CARBON_METRIC": [
+      "Carbon Border Adjustment",
+      "Carbon Dioxide Equivalent",
+      "Carbon Disclosure",
+      "Carbon Footprint Assessment",
+      "Carbon Footprint Quantification",
+      "Carbon Neutrality Verification",
+      "Climate Risk Assessment",
+      "Co2 Emissions Per Ton-mile",
+      "Direct Emissions",
+      "Emission Factors",
+      "Emission Intensity",
+      "Emission Trading System",
+      "Fuel Consumption",
+      "Fuel Efficiency",
+      "Ghg Protocol",
+      "Greenhouse Gas Emissions",
+      "Greenhouse Gas Quantification",
+      "Indirect Emissions",
+      "Life Cycle Assessment",
+      "Net-zero Commitments",
+      "Other Indirect Emissions",
+      "Physical Risk",
+      "Science-based Targets",
+      "Tank-to-wheel Emissions",
+      "Transition Risk",
+      "Transport Emissions",
+      "Well-to-wheel Emissions"
+    ],
+    "SUPPLY_CHAIN_ELEMENT": [
+      "Backhaul Optimization",
+      "Carrier Selection",
+      "Circular Business Models",
+      "Circular Economy Principles",
+      "Environmental Management Systems",
+      "Freight Efficiency",
+      "Green Public Procurement",
+      "Load Optimization",
+      "Mode Shifting",
+      "Responsible Sourcing",
+      "Supplier Climate Action",
+      "Supplier Code Of Conduct",
+      "Supplier Environmental Assessment",
+      "Supply Chain Due Diligence",
+      "Supply Chain Engagement",
+      "Supply Chain Optimization",
+      "Sustainable Finance Taxonomy",
+      "Sustainable Procurement",
+      "Sustainable Procurement Processes",
+      "Sustainable Supply Chain Finance",
+      "Sustainable Supply Chains",
+      "Value Chain Emissions",
+      "Waste Management Systems"
+    ],
+    "EFFICIENCY_TECHNOLOGY": [
+      "Aerodynamic Devices",
+      "Automatic Tire Inflation",
+      "Auxiliary Power Units",
+      "Carbon Accounting Software",
+      "Climate Data Analytics",
+      "Climate Scenario Analysis",
+      "Connected And Automated Mobility",
+      "Data Collection Systems",
+      "Digital Transport Infrastructure",
+      "Driver Training",
+      "Emission Monitoring Systems",
+      "Energy Management Systems",
+      "Environmental Management Systems",
+      "Environmental Monitoring Systems",
+      "Idle Reduction Technology",
+      "Impact Measurement",
+      "Low Rolling Resistance Tires",
+      "Mobility As A Service",
+      "Performance Indicators",
+      "Performance Monitoring",
+      "Smart Traffic Management",
+      "Sustainability Measurement Tools",
+      "Sustainability Reporting Software"
+    ],
+    "ENVIRONMENTAL_STANDARD": [
+      "Cdp Climate Change",
+      "Cdp Forests",
+      "Cdp Supply Chain",
+      "Corporate Sustainability Reporting Directive",
+      "Emission Reduction Targets",
+      "Epa Verification",
+      "Eu Taxonomy Regulation",
+      "Fit For 55 Package",
+      "Freight Efficiency Standards",
+      "Gri 301 Materials",
+      "Gri 305 Emissions",
+      "Gri 308 Supplier Assessment",
+      "Iso 14001 Environmental Management",
+      "Iso 14040 Life Cycle Assessment",
+      "Iso 14064 Greenhouse Gases",
+      "Iso 14067 Carbon Footprint",
+      "Iso 26000 Social Responsibility",
+      "Iso 50001 Energy Management",
+      "Sbti Validation",
+      "Smartway Certification",
+      "Smartway Partnership",
+      "Stakeholder Engagement Standards",
+      "Sustainability Reporting Standards",
+      "Sustainable Finance Disclosure",
+      "Tcfd Recommendations"
+    ]
+  },
+  "validation_metrics": {
+    "TECHNOLOGY_TYPE": {
+      "avg_similarity": 0.32297688722610474,
+      "valid_entities": 12,
+      "total_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_similarity": 0.2134191393852234,
+      "valid_entities": 4,
+      "total_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_similarity": 0.365655779838562,
+      "valid_entities": 10,
+      "total_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_similarity": 0.2951577305793762,
+      "valid_entities": 9,
+      "total_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_similarity": 0.30079367756843567,
+      "valid_entities": 7,
+      "total_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_similarity": 0.4011779725551605,
+      "valid_entities": 21,
+      "total_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_similarity": 0.4109216034412384,
+      "valid_entities": 22,
+      "total_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_similarity": 0.41183167695999146,
+      "valid_entities": 19,
+      "total_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_similarity": 0.16399075090885162,
+      "valid_entities": 2,
+      "total_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_similarity": 0.3624258041381836,
+      "valid_entities": 19,
+      "total_entities": 25
+    }
+  },
+  "quality_assessment": {
+    "TECHNOLOGY_TYPE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_quality": 0.9777777777777777,
+      "high_quality_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_quality": 0.9733333333333332,
+      "high_quality_entities": 25
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "creation_date": "2025-09-21T13:59:30.114889",
+    "version": "1.0.0",
+    "methodology": "Web scraping + Expert validation",
+    "validation_status": "Expert reviewed",
+    "license": "CC BY 4.0",
+    "citation": "TBD - ICECO 2025 Data Note",
+    "dictionary_name": "Renewable Energy Services NER Dictionary",
+    "domain": "renewable_energy_services",
+    "total_entities": 8,
+    "categories": [
+      "TECHNOLOGY_TYPE",
+      "SERVICE_CATEGORY",
+      "EQUIPMENT_COMPONENT",
+      "PERFORMANCE_METRIC",
+      "REGULATORY_STANDARD"
+    ],
+    "integrity_hash": "a3632dfcc17c0e6d3e0ff077c15bec14515a13af11020529a5e644e5dcf749db"
+  },
+  "entities": {
+    "TECHNOLOGY_TYPE": [
+      "Geothermal",
+      "Energy Storage",
+      "Solar",
+      "Wind",
+      "Biomass",
+      "Hydro",
+      "Photovoltaic"
+    ],
+    "SERVICE_CATEGORY": [
+      "Installation"
+    ],
+    "EQUIPMENT_COMPONENT": [],
+    "PERFORMANCE_METRIC": [],
+    "REGULATORY_STANDARD": []
+  },
+  "category_descriptions": {
+    "TECHNOLOGY_TYPE": "Renewable energy generation technologies and systems",
+    "SERVICE_CATEGORY": "Professional services in renewable energy sector",
+    "EQUIPMENT_COMPONENT": "Physical components and equipment",
+    "PERFORMANCE_METRIC": "Key performance indicators and measurements",
+    "REGULATORY_STANDARD": "Standards, codes, and certification programs"
+  },
+  "usage_guidelines": {
+    "ner_applications": [
+      "Entity extraction from energy reports",
+      "Service classification",
+      "Technology identification"
+    ],
+    "rag_applications": [
+      "Context-aware energy consulting",
+      "Technical documentation retrieval",
+      "Service recommendation"
+    ],
+    "cross_domain_links": "See green_logistics dictionary for sustainability connections"
+  }
+}

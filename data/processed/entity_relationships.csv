@@ -1,0 +1,16 @@
+renewable_energy_entity,logistics_entity,relationship_strength,application_context
+Solar,Electric Vehicles,high,Sustainable logistics application of Solar
+Solar,Solar-powered logistics hubs,high,Sustainable logistics application of Solar
+Solar,EV charging stations,high,Sustainable logistics application of Solar
+Wind,Port operations,high,Sustainable logistics application of Wind
+Wind,Offshore logistics,high,Sustainable logistics application of Wind
+Wind,Grid-powered electric transport,high,Sustainable logistics application of Wind
+Battery Storage,Electric vehicle fleets,high,Sustainable logistics application of Battery Storage
+Battery Storage,Warehouse energy storage,high,Sustainable logistics application of Battery Storage
+Battery Storage,Grid stabilization,high,Sustainable logistics application of Battery Storage
+Hydrogen,Fuel cell vehicles,high,Sustainable logistics application of Hydrogen
+Hydrogen,Maritime transport,high,Sustainable logistics application of Hydrogen
+Hydrogen,Heavy-duty trucking,high,Sustainable logistics application of Hydrogen
+Biomass,Biofuel production,high,Sustainable logistics application of Biomass
+Biomass,Sustainable aviation fuel,high,Sustainable logistics application of Biomass
+Biomass,Renewable diesel,high,Sustainable logistics application of Biomass

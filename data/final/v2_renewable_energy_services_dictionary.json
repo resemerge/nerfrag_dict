@@ -1,0 +1,276 @@
+{
+  "dictionary_info": {
+    "name": "Renewable Energy Services NER Dictionary v2",
+    "domain": "Renewable Energy Technology and Services",
+    "categories": [
+      "TECHNOLOGY_TYPE",
+      "SERVICE_CATEGORY",
+      "EQUIPMENT_COMPONENT",
+      "PERFORMANCE_METRIC",
+      "REGULATORY_STANDARD"
+    ],
+    "total_entities": 214,
+    "version": "2.0",
+    "creation_date": "2025-09-21T14:11:24.289295",
+    "description": "Enhanced NER dictionaries for renewable energy and green logistics domains",
+    "validation_status": "AI-validated",
+    "data_sources": [
+      "IRENA (International Renewable Energy Agency)",
+      "NREL (National Renewable Energy Laboratory)",
+      "IEA (International Energy Agency)",
+      "European Commission Energy",
+      "EPA SmartWay Program",
+      "GRI Sustainability Standards",
+      "ISO Environmental Standards",
+      "CDP (Carbon Disclosure Project)"
+    ],
+    "license": "CC BY 4.0",
+    "citation": "Enhanced NER Dictionaries for Sustainable Technology Applications - ICECO 2025",
+    "contact": "research@sustainabletech.org"
+  },
+  "category_definitions": {
+    "TECHNOLOGY_TYPE": {
+      "description": "Renewable energy generation technologies and systems",
+      "examples": [
+        "Solar Photovoltaic",
+        "Wind Turbine",
+        "Hydroelectric",
+        "Geothermal"
+      ],
+      "entity_count": 25
+    },
+    "SERVICE_CATEGORY": {
+      "description": "Professional services in renewable energy sector",
+      "examples": [
+        "Installation",
+        "Maintenance",
+        "Consulting",
+        "Grid Integration"
+      ],
+      "entity_count": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "description": "Physical equipment and components for renewable energy systems",
+      "examples": [
+        "Inverter",
+        "Battery",
+        "Transformer",
+        "Controller"
+      ],
+      "entity_count": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "description": "Key performance indicators for renewable energy systems",
+      "examples": [
+        "Capacity Factor",
+        "LCOE",
+        "Efficiency",
+        "Energy Output"
+      ],
+      "entity_count": 15
+    },
+    "REGULATORY_STANDARD": {
+      "description": "Standards, regulations, and certifications",
+      "examples": [
+        "ISO 14001",
+        "IEC 61215",
+        "Grid Code",
+        "Feed-in Tariff"
+      ],
+      "entity_count": 15
+    }
+  },
+  "entities": {
+    "TECHNOLOGY_TYPE": [
+      "Agrivoltaics",
+      "Bioenergy",
+      "Carbon-neutral Technologies",
+      "Clean Energy",
+      "Concentrated Solar Power",
+      "Energy Storage",
+      "Energy Storage Batteries",
+      "Floating Solar",
+      "Geothermal",
+      "Geothermal Energy",
+      "Green Hydrogen",
+      "Grid Integration",
+      "Hydropower",
+      "Ocean Energy",
+      "Offshore Wind",
+      "Onshore Wind",
+      "Perovskite Solar Cells",
+      "Photovoltaics",
+      "Renewable Energy Sources",
+      "Res Technologies",
+      "Solar Pv",
+      "Solar Thermal",
+      "Sustainable Energy",
+      "Water Power",
+      "Wind Power"
+    ],
+    "SERVICE_CATEGORY": [
+      "Capacity Building",
+      "Carbon Footprint Assessment",
+      "Certification Testing",
+      "Data And Statistics",
+      "Energy Planning",
+      "Energy Transition Services",
+      "Green Deal Implementation",
+      "Grid Integration Studies",
+      "Market Analysis",
+      "Performance Modeling",
+      "Policy Analysis",
+      "Reliability Testing",
+      "Resource Assessment",
+      "Sustainability Consulting",
+      "Techno-economic Analysis",
+      "Technology Roadmaps"
+    ],
+    "EQUIPMENT_COMPONENT": [
+      "Cables",
+      "Electric Vehicle Charging",
+      "Energy Efficiency Equipment",
+      "Energy Management Systems",
+      "Energy Storage Systems",
+      "Heat Pump Systems",
+      "Heat Pumps",
+      "Inverters",
+      "Mounting Systems",
+      "Power Electronics",
+      "Silicon Solar Cells",
+      "Smart Grid Components",
+      "Thin-film Modules",
+      "Tracking Systems",
+      "Transformers",
+      "Wind Turbine Components"
+    ],
+    "PERFORMANCE_METRIC": [
+      "Capacity Additions",
+      "Capacity Factor",
+      "Degradation Rate",
+      "Energy Efficiency Targets",
+      "Energy Security Indicators",
+      "Energy Yield",
+      "Generation Growth",
+      "Ghg Emission Reductions",
+      "Global Weighted Average Lcoe",
+      "Investment Flows",
+      "Job Creation",
+      "Levelized Cost Of Energy",
+      "Performance Ratio",
+      "Renewable Energy Share",
+      "System Efficiency"
+    ],
+    "REGULATORY_STANDARD": [
+      "Astm Standards",
+      "Auctions",
+      "Energy Efficiency Directive",
+      "Eu Taxonomy",
+      "Feed-in Tariffs",
+      "Fit For 55",
+      "Green Deal",
+      "Iec 61215",
+      "Iec 61730",
+      "Ieee 1547",
+      "Net Metering",
+      "Renewable Energy Certificates",
+      "Renewable Energy Directive",
+      "Renewable Energy Targets",
+      "Ul 1703"
+    ]
+  },
+  "validation_metrics": {
+    "TECHNOLOGY_TYPE": {
+      "avg_similarity": 0.32297688722610474,
+      "valid_entities": 12,
+      "total_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_similarity": 0.2134191393852234,
+      "valid_entities": 4,
+      "total_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_similarity": 0.365655779838562,
+      "valid_entities": 10,
+      "total_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_similarity": 0.2951577305793762,
+      "valid_entities": 9,
+      "total_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_similarity": 0.30079367756843567,
+      "valid_entities": 7,
+      "total_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_similarity": 0.4011779725551605,
+      "valid_entities": 21,
+      "total_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_similarity": 0.4109216034412384,
+      "valid_entities": 22,
+      "total_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_similarity": 0.41183167695999146,
+      "valid_entities": 19,
+      "total_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_similarity": 0.16399075090885162,
+      "valid_entities": 2,
+      "total_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_similarity": 0.3624258041381836,
+      "valid_entities": 19,
+      "total_entities": 25
+    }
+  },
+  "quality_assessment": {
+    "TECHNOLOGY_TYPE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 25
+    },
+    "SERVICE_CATEGORY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 16
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 15
+    },
+    "REGULATORY_STANDARD": {
+      "avg_quality": 0.9777777777777777,
+      "high_quality_entities": 15
+    },
+    "TRANSPORT_MODE": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 29
+    },
+    "CARBON_METRIC": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 27
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_quality": 1.0,
+      "high_quality_entities": 23
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_quality": 0.9733333333333332,
+      "high_quality_entities": 25
+    }
+  }
+}

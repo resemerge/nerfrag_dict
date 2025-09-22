@@ -1,0 +1,619 @@
+{
+  "dictionary_info": {
+    "name": "Cross-Domain Mappings Dictionary v2",
+    "domain": "Renewable Energy \u2194 Green Logistics Relationships",
+    "total_mappings": 60,
+    "relationship_types": [
+      "energy_to_transport",
+      "services_to_supply",
+      "equipment_to_efficiency",
+      "performance_to_carbon",
+      "standards_alignment",
+      "semantic_similarity"
+    ],
+    "version": "2.0",
+    "creation_date": "2025-09-21T14:11:24.289295",
+    "description": "Enhanced NER dictionaries for renewable energy and green logistics domains",
+    "total_entities": 214,
+    "validation_status": "AI-validated",
+    "data_sources": [
+      "IRENA (International Renewable Energy Agency)",
+      "NREL (National Renewable Energy Laboratory)",
+      "IEA (International Energy Agency)",
+      "European Commission Energy",
+      "EPA SmartWay Program",
+      "GRI Sustainability Standards",
+      "ISO Environmental Standards",
+      "CDP (Carbon Disclosure Project)"
+    ],
+    "license": "CC BY 4.0",
+    "citation": "Enhanced NER Dictionaries for Sustainable Technology Applications - ICECO 2025",
+    "contact": "research@sustainabletech.org"
+  },
+  "mapping_methodology": {
+    "rule_based_mappings": "Predefined semantic rules connecting related concepts",
+    "semantic_similarity": "AI-based similarity analysis using sentence transformers",
+    "confidence_scoring": "Numerical confidence scores for each mapping relationship",
+    "validation_process": "Multi-stage validation using semantic analysis"
+  },
+  "relationship_types": {
+    "energy_to_transport": {
+      "description": "Mappings of type: energy_to_transport",
+      "count": 23,
+      "avg_confidence": 0.8999999999999998
+    },
+    "services_to_supply": {
+      "description": "Mappings of type: services_to_supply",
+      "count": 1,
+      "avg_confidence": 0.9
+    },
+    "equipment_to_efficiency": {
+      "description": "Mappings of type: equipment_to_efficiency",
+      "count": 2,
+      "avg_confidence": 0.9
+    },
+    "performance_to_carbon": {
+      "description": "Mappings of type: performance_to_carbon",
+      "count": 11,
+      "avg_confidence": 0.9000000000000002
+    },
+    "standards_alignment": {
+      "description": "Mappings of type: standards_alignment",
+      "count": 1,
+      "avg_confidence": 0.9
+    },
+    "semantic_similarity": {
+      "description": "Mappings of type: semantic_similarity",
+      "count": 22,
+      "avg_confidence": 0.603030303030303
+    }
+  },
+  "cross_domain_mappings": [
+    {
+      "renewable_energy_entity": "Concentrated Solar Power",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Concentrated Solar Power",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Floating Solar",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Floating Solar",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Perovskite Solar Cells",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Perovskite Solar Cells",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Solar Pv",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Solar Pv",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Solar Thermal",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Solar Thermal",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Silicon Solar Cells",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Zero Emission Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Silicon Solar Cells",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Offshore Wind",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Offshore Wind",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Onshore Wind",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Onshore Wind",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Wind Power",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Wind Power",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Wind Turbine Components",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Wind Turbine Components",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Aerodynamic Devices",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Green Hydrogen",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Alternative Fuel Vehicles",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Grid Integration",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Smart Traffic Management",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Grid Integration Studies",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Smart Traffic Management",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "energy_to_transport",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Sustainability Consulting",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Supply Chain Optimization",
+      "green_logistics_category": "SUPPLY_CHAIN_ELEMENT",
+      "relationship_type": "services_to_supply",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Inverters",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Energy Management Systems",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "equipment_to_efficiency",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Smart Grid Components",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Digital Transport Infrastructure",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "equipment_to_efficiency",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Energy Efficiency Equipment",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Emission Factors",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Energy Efficiency Targets",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Emission Factors",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "System Efficiency",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Emission Factors",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Energy Efficiency Directive",
+      "renewable_energy_category": "REGULATORY_STANDARD",
+      "green_logistics_entity": "Emission Factors",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Global Weighted Average Lcoe",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Carbon Footprint Assessment",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Global Weighted Average Lcoe",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Carbon Footprint Quantification",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Global Weighted Average Lcoe",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Life Cycle Assessment",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Global Weighted Average Lcoe",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Iso 14040 Life Cycle Assessment",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Global Weighted Average Lcoe",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Iso 14067 Carbon Footprint",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Capacity Factor",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Co2 Emissions Per Ton-mile",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Capacity Factor",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Emission Intensity",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "performance_to_carbon",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Renewable Energy Certificates",
+      "renewable_energy_category": "REGULATORY_STANDARD",
+      "green_logistics_entity": "Emission Trading System",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "standards_alignment",
+      "confidence_score": 0.9,
+      "mapping_source": "rule_based"
+    },
+    {
+      "renewable_energy_entity": "Clean Energy",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Clean Transport",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Green Hydrogen",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Sustainable Energy",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Sustainable Mobility",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Sustainable Energy",
+      "renewable_energy_category": "TECHNOLOGY_TYPE",
+      "green_logistics_entity": "Sustainable Procurement",
+      "green_logistics_category": "SUPPLY_CHAIN_ELEMENT",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Carbon Footprint Assessment",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Carbon Footprint Assessment",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 1.0,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Carbon Footprint Assessment",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Carbon Footprint Quantification",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.6666666666666666,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Carbon Footprint Assessment",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Iso 14067 Carbon Footprint",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Certification Testing",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Smartway Certification",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Performance Modeling",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Performance Indicators",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Performance Modeling",
+      "renewable_energy_category": "SERVICE_CATEGORY",
+      "green_logistics_entity": "Performance Monitoring",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Energy Management Systems",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Environmental Management Systems",
+      "green_logistics_category": "SUPPLY_CHAIN_ELEMENT",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.6666666666666666,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Energy Management Systems",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Waste Management Systems",
+      "green_logistics_category": "SUPPLY_CHAIN_ELEMENT",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.6666666666666666,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Energy Management Systems",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Energy Management Systems",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 1.0,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Energy Management Systems",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Iso 50001 Energy Management",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Energy Storage Systems",
+      "renewable_energy_category": "EQUIPMENT_COMPONENT",
+      "green_logistics_entity": "Energy Management Systems",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.6666666666666666,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Performance Ratio",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Performance Indicators",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Performance Ratio",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Performance Monitoring",
+      "green_logistics_category": "EFFICIENCY_TECHNOLOGY",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "System Efficiency",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Fuel Efficiency",
+      "green_logistics_category": "CARBON_METRIC",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "System Efficiency",
+      "renewable_energy_category": "PERFORMANCE_METRIC",
+      "green_logistics_entity": "Freight Efficiency",
+      "green_logistics_category": "SUPPLY_CHAIN_ELEMENT",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Eu Taxonomy",
+      "renewable_energy_category": "REGULATORY_STANDARD",
+      "green_logistics_entity": "Eu Taxonomy Regulation",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.8,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Fit For 55",
+      "renewable_energy_category": "REGULATORY_STANDARD",
+      "green_logistics_entity": "Fit For 55 Package",
+      "green_logistics_category": "ENVIRONMENTAL_STANDARD",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.8,
+      "mapping_source": "semantic_analysis"
+    },
+    {
+      "renewable_energy_entity": "Green Deal",
+      "renewable_energy_category": "REGULATORY_STANDARD",
+      "green_logistics_entity": "Green Shipping",
+      "green_logistics_category": "TRANSPORT_MODE",
+      "relationship_type": "semantic_similarity",
+      "confidence_score": 0.5,
+      "mapping_source": "semantic_analysis"
+    }
+  ],
+  "usage_guidelines": {
+    "rag_applications": "Use for context-aware retrieval in sustainability consulting",
+    "ner_enhancement": "Improve entity recognition across renewable energy and logistics",
+    "knowledge_graphs": "Build semantic relationships for domain knowledge representation",
+    "research_applications": "Support interdisciplinary research in sustainable technology"
+  }
+}

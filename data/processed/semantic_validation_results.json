@@ -1,0 +1,84 @@
+{
+  "category_validation": {
+    "TECHNOLOGY_TYPE": {
+      "avg_similarity": 0.32609882950782776,
+      "valid_entities": 4,
+      "total_entities": 7
+    },
+    "SERVICE_CATEGORY": {
+      "avg_similarity": 0.24816283583641052,
+      "valid_entities": 0,
+      "total_entities": 1
+    },
+    "EQUIPMENT_COMPONENT": {
+      "avg_similarity": NaN,
+      "valid_entities": 0,
+      "total_entities": 0
+    },
+    "PERFORMANCE_METRIC": {
+      "avg_similarity": NaN,
+      "valid_entities": 0,
+      "total_entities": 0
+    },
+    "REGULATORY_STANDARD": {
+      "avg_similarity": NaN,
+      "valid_entities": 0,
+      "total_entities": 0
+    },
+    "TRANSPORT_MODE": {
+      "avg_similarity": 0.09843961149454117,
+      "valid_entities": 0,
+      "total_entities": 4
+    },
+    "CARBON_METRIC": {
+      "avg_similarity": 0.3902643620967865,
+      "valid_entities": 1,
+      "total_entities": 2
+    },
+    "SUPPLY_CHAIN_ELEMENT": {
+      "avg_similarity": -0.008419450372457504,
+      "valid_entities": 0,
+      "total_entities": 2
+    },
+    "EFFICIENCY_TECHNOLOGY": {
+      "avg_similarity": NaN,
+      "valid_entities": 0,
+      "total_entities": 0
+    },
+    "ENVIRONMENTAL_STANDARD": {
+      "avg_similarity": 0.19318445026874542,
+      "valid_entities": 1,
+      "total_entities": 3
+    }
+  },
+  "duplicate_detection": {
+    "TECHNOLOGY_TYPE": [],
+    "SERVICE_CATEGORY": [],
+    "EQUIPMENT_COMPONENT": [],
+    "PERFORMANCE_METRIC": [],
+    "REGULATORY_STANDARD": [],
+    "TRANSPORT_MODE": [
+      [
+        "Ev",
+        "ev",
+        1.0000001192092896
+      ],
+      [
+        "Multimodal",
+        "multimodal",
+        1.0
+      ]
+    ],
+    "CARBON_METRIC": [],
+    "SUPPLY_CHAIN_ELEMENT": [
+      [
+        "Renewable energy",
+        "renewable energy",
+        0.9999999403953552
+      ]
+    ],
+    "EFFICIENCY_TECHNOLOGY": [],
+    "ENVIRONMENTAL_STANDARD": []
+  },
+  "quality_scores": {}
+}

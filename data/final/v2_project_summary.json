@@ -1,0 +1,43 @@
+{
+  "project_overview": {
+    "title": "Enhanced NER Dictionaries for Sustainable Technology Applications v2",
+    "total_entities": 214,
+    "renewable_energy_entities": 87,
+    "green_logistics_entities": 127,
+    "cross_domain_mappings": 60,
+    "data_sources": 8,
+    "validation_status": "AI-validated"
+  },
+  "dictionary_files": [
+    "v2_renewable_energy_services_dictionary.json",
+    "v2_green_logistics_dictionary.json",
+    "v2_cross_domain_mappings_dictionary.json"
+  ],
+  "metadata": {
+    "version": "2.0",
+    "creation_date": "2025-09-21T14:11:24.289295",
+    "description": "Enhanced NER dictionaries for renewable energy and green logistics domains",
+    "total_entities": 214,
+    "validation_status": "AI-validated",
+    "data_sources": [
+      "IRENA (International Renewable Energy Agency)",
+      "NREL (National Renewable Energy Laboratory)",
+      "IEA (International Energy Agency)",
+      "European Commission Energy",
+      "EPA SmartWay Program",
+      "GRI Sustainability Standards",
+      "ISO Environmental Standards",
+      "CDP (Carbon Disclosure Project)"
+    ],
+    "license": "CC BY 4.0",
+    "citation": "Enhanced NER Dictionaries for Sustainable Technology Applications - ICECO 2025",
+    "contact": "research@sustainabletech.org"
+  },
+  "validation_summary": {
+    "total_entities": 214,
+    "valid_entities": 125,
+    "validation_rate": 0.5841121495327103,
+    "categories_processed": 10,
+    "avg_category_similarity": 0.32483510226011275
+  }
+}

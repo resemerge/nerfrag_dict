@@ -1,0 +1,229 @@
+{
+  "energy_to_logistics": {
+    "Solar": [
+      "Electric Vehicles",
+      "Solar-powered logistics hubs",
+      "EV charging stations"
+    ],
+    "Wind": [
+      "Port operations",
+      "Offshore logistics",
+      "Grid-powered electric transport"
+    ],
+    "Battery Storage": [
+      "Electric vehicle fleets",
+      "Warehouse energy storage",
+      "Grid stabilization"
+    ],
+    "Hydrogen": [
+      "Fuel cell vehicles",
+      "Maritime transport",
+      "Heavy-duty trucking"
+    ],
+    "Biomass": [
+      "Biofuel production",
+      "Sustainable aviation fuel",
+      "Renewable diesel"
+    ]
+  },
+  "logistics_to_energy": {
+    "Energy Management": [
+      "Fleet energy optimization",
+      "Warehouse energy efficiency"
+    ],
+    "Monitoring Systems": [
+      "Vehicle telematics",
+      "Supply chain visibility"
+    ],
+    "Grid Integration": [
+      "EV charging infrastructure",
+      "Distributed energy resources"
+    ],
+    "Maintenance Services": [
+      "Fleet maintenance",
+      "Infrastructure upkeep"
+    ],
+    "Consulting": [
+      "Sustainability consulting",
+      "Carbon footprint analysis"
+    ]
+  },
+  "shared_concepts": {
+    "Efficiency Metrics": [
+      "Energy efficiency",
+      "Operational efficiency",
+      "Cost optimization"
+    ],
+    "Environmental Standards": [
+      "ISO 14001",
+      "Carbon neutrality",
+      "Sustainability reporting"
+    ],
+    "Technology Integration": [
+      "IoT sensors",
+      "Predictive analytics",
+      "Automation systems"
+    ],
+    "Regulatory Compliance": [
+      "Environmental regulations",
+      "Safety standards",
+      "Reporting requirements"
+    ]
+  },
+  "sustainability_links": {
+    "Carbon Reduction": {
+      "renewable_energy": [
+        "Clean electricity generation",
+        "Grid decarbonization"
+      ],
+      "logistics": [
+        "Electric vehicle adoption",
+        "Route optimization",
+        "Modal shift"
+      ]
+    },
+    "Resource Efficiency": {
+      "renewable_energy": [
+        "Energy storage optimization",
+        "Grid efficiency"
+      ],
+      "logistics": [
+        "Load consolidation",
+        "Warehouse automation",
+        "Reverse logistics"
+      ]
+    },
+    "Circular Economy": {
+      "renewable_energy": [
+        "Battery recycling",
+        "Component remanufacturing"
+      ],
+      "logistics": [
+        "Packaging optimization",
+        "Product lifecycle management"
+      ]
+    }
+  },
+  "rag_contexts": [
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Solar",
+      "target_domain": "logistics",
+      "target_entity": "Electric Vehicles",
+      "relationship_type": "technology_application",
+      "context": "Solar technology enables Electric Vehicles in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Solar",
+      "target_domain": "logistics",
+      "target_entity": "Solar-powered logistics hubs",
+      "relationship_type": "technology_application",
+      "context": "Solar technology enables Solar-powered logistics hubs in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Solar",
+      "target_domain": "logistics",
+      "target_entity": "EV charging stations",
+      "relationship_type": "technology_application",
+      "context": "Solar technology enables EV charging stations in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Wind",
+      "target_domain": "logistics",
+      "target_entity": "Port operations",
+      "relationship_type": "technology_application",
+      "context": "Wind technology enables Port operations in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Wind",
+      "target_domain": "logistics",
+      "target_entity": "Offshore logistics",
+      "relationship_type": "technology_application",
+      "context": "Wind technology enables Offshore logistics in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Wind",
+      "target_domain": "logistics",
+      "target_entity": "Grid-powered electric transport",
+      "relationship_type": "technology_application",
+      "context": "Wind technology enables Grid-powered electric transport in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Battery Storage",
+      "target_domain": "logistics",
+      "target_entity": "Electric vehicle fleets",
+      "relationship_type": "technology_application",
+      "context": "Battery Storage technology enables Electric vehicle fleets in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Battery Storage",
+      "target_domain": "logistics",
+      "target_entity": "Warehouse energy storage",
+      "relationship_type": "technology_application",
+      "context": "Battery Storage technology enables Warehouse energy storage in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Battery Storage",
+      "target_domain": "logistics",
+      "target_entity": "Grid stabilization",
+      "relationship_type": "technology_application",
+      "context": "Battery Storage technology enables Grid stabilization in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Hydrogen",
+      "target_domain": "logistics",
+      "target_entity": "Fuel cell vehicles",
+      "relationship_type": "technology_application",
+      "context": "Hydrogen technology enables Fuel cell vehicles in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Hydrogen",
+      "target_domain": "logistics",
+      "target_entity": "Maritime transport",
+      "relationship_type": "technology_application",
+      "context": "Hydrogen technology enables Maritime transport in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Hydrogen",
+      "target_domain": "logistics",
+      "target_entity": "Heavy-duty trucking",
+      "relationship_type": "technology_application",
+      "context": "Hydrogen technology enables Heavy-duty trucking in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Biomass",
+      "target_domain": "logistics",
+      "target_entity": "Biofuel production",
+      "relationship_type": "technology_application",
+      "context": "Biomass technology enables Biofuel production in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Biomass",
+      "target_domain": "logistics",
+      "target_entity": "Sustainable aviation fuel",
+      "relationship_type": "technology_application",
+      "context": "Biomass technology enables Sustainable aviation fuel in sustainable logistics"
+    },
+    {
+      "source_domain": "renewable_energy",
+      "source_entity": "Biomass",
+      "target_domain": "logistics",
+      "target_entity": "Renewable diesel",
+      "relationship_type": "technology_application",
+      "context": "Biomass technology enables Renewable diesel in sustainable logistics"
+    }
+  ]
+}

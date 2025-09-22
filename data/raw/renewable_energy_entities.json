@@ -1,0 +1,17 @@
+{
+  "TECHNOLOGY_TYPE": [
+    "Geothermal",
+    "Energy Storage",
+    "Solar",
+    "Wind",
+    "Biomass",
+    "Hydro",
+    "Photovoltaic"
+  ],
+  "SERVICE_CATEGORY": [
+    "Installation"
+  ],
+  "EQUIPMENT_COMPONENT": [],
+  "PERFORMANCE_METRIC": [],
+  "REGULATORY_STANDARD": []
+}

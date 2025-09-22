@@ -1,0 +1,22 @@
+{
+  "TRANSPORT_MODE": [
+    "Ev",
+    "Multimodal",
+    "ev",
+    "multimodal"
+  ],
+  "CARBON_METRIC": [
+    "carbon footprint",
+    "net zero"
+  ],
+  "SUPPLY_CHAIN_ELEMENT": [
+    "Renewable energy",
+    "renewable energy"
+  ],
+  "EFFICIENCY_TECHNOLOGY": [],
+  "ENVIRONMENTAL_STANDARD": [
+    "ISO 14001",
+    "SmartWay",
+    "gri"
+  ]
+}
